@@ -16,7 +16,11 @@ public class testController {
     @Autowired
     private UserRepo userRepo;
 
-
+    @ResponseBody
+    @RequestMapping("/")
+    public String home() {
+        return "Hello World";
+    }
 
     @PostMapping("/users")
     public User createUser(@RequestBody User user) {
