@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.Objects;
 
-@CrossOrigin(origins = { "http://127.0.0.1:3000", "http://localhost:3000","https://dev-ravalls-reel.vercel.app" })
+@CrossOrigin(origins = { "http://127.0.0.1:3000", "http://localhost:3000","https://reels-dev-ravall.vercel.app" })
 
 @RestController
 public class testController {
