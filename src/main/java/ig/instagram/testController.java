@@ -19,7 +19,7 @@ public class testController {
     @ResponseBody
     @RequestMapping("/")
     public String home() {
-        return "Hello World";
+        return "Hello World bro";
     }
 
     @PostMapping("/users")
